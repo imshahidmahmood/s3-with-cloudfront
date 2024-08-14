@@ -4,7 +4,7 @@ This project automates the creation of an Amazon S3 bucket, CloudFront distribut
 
 ## Architecture Diagram
 
-![AWS Architecture Diagram](https://github.com/https://github.com/imshahidmahmood/s3-with-cloudfront/blob/main/s3-with-cloudfront-dist.drawio.png)
+![AWS Architecture Diagram](https://github.com/imshahidmahmood/s3-with-cloudfront/blob/main/s3-with-cloudfront-dist.drawio.png?raw=true)
 
 ## Features
 
