@@ -2,6 +2,10 @@
 
 This project automates the creation of an Amazon S3 bucket, CloudFront distribution, and IAM user with the necessary permissions using Terraform.
 
+## Architecture Diagram
+
+![AWS Architecture Diagram](https://github.com/https://github.com/imshahidmahmood/s3-with-cloudfront/blob/main/s3-with-cloudfront-dist.drawio.png)
+
 ## Features
 
 This Terraform configuration performs the following tasks:
