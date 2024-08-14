@@ -13,7 +13,7 @@ This Terraform configuration performs the following tasks:
    - Sets up a CloudFront distribution and attaches it to the S3 bucket for content delivery.
 
 3. **Create IAM User**: 
-   - Creates an IAM user named after the S3 bucket and attaches a policy granting full access to the bucket.
+   - Creates an IAM user named after the S3 bucket e.g: ${aws_s3_bucket_name}-user and attaches a policy granting full access to the bucket.
 
 4. **Create Access Keys**: 
    - Generates access keys for the IAM user so that files can be uploaded to the S3 bucket through the CloudFront distribution.
