@@ -42,24 +42,41 @@ This Terraform configuration performs the following tasks:
 
 1. Clone the repository:
 
+   ```bash
    git clone <repository-url>
+   ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
+   ```bash
    cd S3-WITH-CLOUDFRONT
+   ```
 
-3. Initialize Terraform:
+5. Initialize Terraform:
 
-   terraform init
+   ```bash
+    terraform init
+   ```
 
-4. Review the plan:
+6. Review the plan:
 
-   terraform plan
+   ```bash
+    terraform plan
+   ```
 
-5. Apply the Terraform configuration:
+8. Apply the Terraform configuration:
 
-   terraform apply
-
+   ```bash
+    terraform apply
+   ```
 After successful deployment, the outputs will provide the necessary information such as the S3 bucket name, CloudFront distribution URL, and IAM user credentials.
+
+9. Cleanup:
+    
+    To remove all resources created by this project, run:
+   
+    ```bash
+    terraform destroy
+    ```
 
 
